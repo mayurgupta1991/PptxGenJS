@@ -2981,7 +2981,7 @@ function slideObjectRelationsToXml(slide, defaultRels) {
  */
 function genXmlParagraphProperties(textObj, isDefault) {
     var strXmlBullet = '', strXmlLnSpc = '', strXmlParaSpc = '';
-    var bulletLvl0Margin = 342900;
+    var bulletLvl0Margin = 900;
     var tag = isDefault ? 'a:lvl1pPr' : 'a:pPr';
     var paragraphPropXml = '<' + tag + (textObj.options.rtlMode ? ' rtl="1" ' : '');
     // A: Build paragraphProperties
